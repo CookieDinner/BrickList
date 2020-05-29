@@ -1,0 +1,20 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        app:key="prefix"
+        app:title="Prefix of URL"
+        android:defaultValue="http://fcds.cs.put.poznan.pl/MyWeb/BL/"
+        app:useSimpleSummaryProvider="true" />
+    <SwitchPreferenceCompat
+        app:key="archive"
+        app:title="Archive"
+        app:summary="Show archived"
+        app:defaultValue="false"
+        app:useSimpleSummaryProvider="true" />
+    <EditTextPreference
+        app:key="database_file"
+        app:title="Database file"
+        app:useSimpleSummaryProvider="true" />
+
+</PreferenceScreen>
